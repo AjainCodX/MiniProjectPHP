@@ -1,0 +1,32 @@
+{
+    "name": "atishayjain/demo2",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "AjainCodX",
+            "email": "atishay.j@aspireapp.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^12.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\" : "Core/",
+            "Http\\" : "Http/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
